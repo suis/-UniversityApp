@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "University.Info.ConsoleApp", "src\University.Info.ConsoleApp\University.Info.ConsoleApp.csproj", "{63DB003B-0B0F-44F2-AFB7-038A54DB7CF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "University.Info.ConsoleApp", "src\University.Info.ConsoleApp\University.Info.ConsoleApp.csproj", "{63DB003B-0B0F-44F2-AFB7-038A54DB7CF2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{99CA1E27-7BBD-47E0-A408-214C03DDF27E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "University.Info.HipolabsApi.Client", "src\University.Info.HipolabsApi.Client\University.Info.HipolabsApi.Client.csproj", "{B7BF518E-CE00-4E54-957D-98F1B59E34EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "University.Info.HipolabsApi.Client", "src\University.Info.HipolabsApi.Client\University.Info.HipolabsApi.Client.csproj", "{B7BF518E-CE00-4E54-957D-98F1B59E34EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "University.Info.Interfaces", "src\University.Info.Interfaces\University.Info.Interfaces.csproj", "{3F077FEC-3598-41C5-9E55-8A81C1864A8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "University.Info.Interfaces", "src\University.Info.Interfaces\University.Info.Interfaces.csproj", "{3F077FEC-3598-41C5-9E55-8A81C1864A8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "University.Info.Domain", "src\University.Info.Domain\University.Info.Domain.csproj", "{A29506DF-FEAE-48CD-AE0B-A1FED1012421}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "University.Info.Domain", "src\University.Info.Domain\University.Info.Domain.csproj", "{A29506DF-FEAE-48CD-AE0B-A1FED1012421}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "University.Info.Application", "src\University.Info.Application\University.Info.Application.csproj", "{4E65DC33-C226-4BA5-A91E-50CF4C283F64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "University.Info.Repository", "src\University.Info.Provider\University.Info.Repository.csproj", "{B1D3CD3B-3AFA-4132-A6D2-B452E511E46F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,14 @@ Global
 		{A29506DF-FEAE-48CD-AE0B-A1FED1012421}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A29506DF-FEAE-48CD-AE0B-A1FED1012421}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A29506DF-FEAE-48CD-AE0B-A1FED1012421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E65DC33-C226-4BA5-A91E-50CF4C283F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E65DC33-C226-4BA5-A91E-50CF4C283F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E65DC33-C226-4BA5-A91E-50CF4C283F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E65DC33-C226-4BA5-A91E-50CF4C283F64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1D3CD3B-3AFA-4132-A6D2-B452E511E46F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1D3CD3B-3AFA-4132-A6D2-B452E511E46F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1D3CD3B-3AFA-4132-A6D2-B452E511E46F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1D3CD3B-3AFA-4132-A6D2-B452E511E46F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +55,8 @@ Global
 		{B7BF518E-CE00-4E54-957D-98F1B59E34EC} = {99CA1E27-7BBD-47E0-A408-214C03DDF27E}
 		{3F077FEC-3598-41C5-9E55-8A81C1864A8F} = {99CA1E27-7BBD-47E0-A408-214C03DDF27E}
 		{A29506DF-FEAE-48CD-AE0B-A1FED1012421} = {99CA1E27-7BBD-47E0-A408-214C03DDF27E}
+		{4E65DC33-C226-4BA5-A91E-50CF4C283F64} = {99CA1E27-7BBD-47E0-A408-214C03DDF27E}
+		{B1D3CD3B-3AFA-4132-A6D2-B452E511E46F} = {99CA1E27-7BBD-47E0-A408-214C03DDF27E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CBA5F954-8DB6-49DC-8A77-A72DACFE35F9}

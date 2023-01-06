@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Source\\UniversityApp\\src\\University.Info.HipolabsApi.Client\\University.Info.HipolabsApi.Client.csproj": {}
+    "C:\\Source\\-UniversityApp\\src\\University.Info.HipolabsApi.Client\\University.Info.HipolabsApi.Client.csproj": {}
   },
   "projects": {
-    "C:\\Source\\UniversityApp\\src\\University.Info.HipolabsApi.Client\\University.Info.HipolabsApi.Client.csproj": {
+    "C:\\Source\\-UniversityApp\\src\\University.Info.HipolabsApi.Client\\University.Info.HipolabsApi.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Source\\UniversityApp\\src\\University.Info.HipolabsApi.Client\\University.Info.HipolabsApi.Client.csproj",
+        "projectUniqueName": "C:\\Source\\-UniversityApp\\src\\University.Info.HipolabsApi.Client\\University.Info.HipolabsApi.Client.csproj",
         "projectName": "University.Info.HipolabsApi.Client",
-        "projectPath": "C:\\Source\\UniversityApp\\src\\University.Info.HipolabsApi.Client\\University.Info.HipolabsApi.Client.csproj",
+        "projectPath": "C:\\Source\\-UniversityApp\\src\\University.Info.HipolabsApi.Client\\University.Info.HipolabsApi.Client.csproj",
         "packagesPath": "C:\\Users\\fernandok\\.nuget\\packages\\",
-        "outputPath": "C:\\Source\\UniversityApp\\src\\University.Info.HipolabsApi.Client\\obj\\",
+        "outputPath": "C:\\Source\\-UniversityApp\\src\\University.Info.HipolabsApi.Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

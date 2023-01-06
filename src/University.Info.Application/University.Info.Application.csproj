@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\University.Info.Domain\University.Info.Domain.csproj" />
+    <ProjectReference Include="..\University.Info.Interfaces\University.Info.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
