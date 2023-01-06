@@ -17,6 +17,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "University.Info.Application
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "University.Info.Repository", "src\University.Info.Provider\University.Info.Repository.csproj", "{B1D3CD3B-3AFA-4132-A6D2-B452E511E46F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Diagrams", "Diagrams", "{25B46125-BCEA-44FA-8DD5-94B3DB1FC01D}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Users\fernandok\Downloads\UniversityInfoApp.drawio = ..\..\Users\fernandok\Downloads\UniversityInfoApp.drawio
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
