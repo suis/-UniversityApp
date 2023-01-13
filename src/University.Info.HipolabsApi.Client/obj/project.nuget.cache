@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "WCSXA+SCETV4erAPFuiA/KBoNeO+vYB2MvzZaPnOy/ZEUjkiMVurB9DYIxRRImIpEW1gXzn4rSnp6t+PSU1OYA==",
+  "dgSpecHash": "CddAwZVIU4uHE/2LvcSwGhTGIHEbrWkO3pl959oBt0SO5H7f9xE3iqGpZM5mjoJaJHCcsAS4TKJ350ixfksqeA==",
   "success": true,
-  "projectFilePath": "C:\\Source\\-UniversityApp\\src\\University.Info.HipolabsApi.Client\\University.Info.HipolabsApi.Client.csproj",
+  "projectFilePath": "C:\\Users\\luo_k\\workbench\\bootcamp\\mentorProj\\-UniversityApp\\src\\University.Info.HipolabsApi.Client\\University.Info.HipolabsApi.Client.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\fernandok\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+    "C:\\Users\\luo_k\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
   ],
   "logs": []
 }
