@@ -9,7 +9,7 @@ namespace University.Info.Interfaces.Application
 {
     public interface IUniversityInformationRetriever
     {
-        List<UniversityInformation> GetUniversityInformationByCountry(string countryName);
+        Task<List<UniversityInformation>> GetUniversityInformationByCountry(string countryName);
 
     }
 }

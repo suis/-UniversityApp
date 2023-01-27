@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = University.Info.Repository
-build_property.ProjectDir = C:\Users\luo_k\workbench\bootcamp\mentorProj\-UniversityApp\src\University.Info.Provider\
+build_property.ProjectDir = C:\Source\-UniversityApp\src\University.Info.Provider\

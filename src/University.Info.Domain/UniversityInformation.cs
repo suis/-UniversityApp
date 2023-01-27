@@ -4,7 +4,5 @@
     {
         public string UniversityName;
 
-        public int Rank;
-
     }
 }

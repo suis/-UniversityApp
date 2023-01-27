@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System;
+using System.Configuration;
 using Newtonsoft.Json;
 
 namespace University.Info.HipolabsApi.Client
@@ -21,10 +22,13 @@ namespace University.Info.HipolabsApi.Client
             HttpClient client = new HttpClient();
             string urlCountry = country.Replace(" ", "+");
             Console.WriteLine(urlCountry);
+
+            var universityUrl = ConfigurationSettings.AppSettings.Get("ApiUrl");
+
             string url = $"http://universities.hipolabs.com/search?country={urlCountry}";
             string rawdata = await client.GetStringAsync(url);
             this.Response = JsonConvert.DeserializeObject<List<Client.Responses.SearchResponse>>(rawdata);
-            // Console.WriteLine(this.Response[1].name);
+            
             return this.Response;
         }
         
