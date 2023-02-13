@@ -13,7 +13,7 @@ namespace University.Info.Application
 
         public UniversityInformationRetriever(IUniversityInformationProvider universityInformationProvider)
         {
-            _universityInformationProvider = universityInformationProvider ?? throw new ArgumentException(nameof(universityInformationProvider));
+            _universityInformationProvider = universityInformationProvider ?? throw new ArgumentNullException(nameof(universityInformationProvider));
         }
 
         public async Task<List<UniversityInformation>> GetUniversityInformationByCountry(string countryName)
@@ -21,8 +21,8 @@ namespace University.Info.Application
             var universityInformation = new List<UniversityInformation>();
             var universityList =  await _universityInformationProvider.GetUniversityInformationByCountry(countryName).ConfigureAwait(false);
             return universityList;
-
-
         }
+
+
     }
 }

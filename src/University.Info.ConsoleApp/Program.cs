@@ -22,14 +22,14 @@ namespace University.Info.ConsoleApp
             var serviceProvider = new ServiceCollection()
                 .AddSingleton<IUniversityInformationRetriever, UniversityInformationRetriever>()
                 .AddSingleton<IUniversityInformationProvider, UniversityInformationProvider>()
+                .AddSingleton <IHipolabsApiClient,HipolabsApiClient>()
                 .BuildServiceProvider();
 
-            
-             var universityInformationRetriever = serviceProvider.GetService<IUniversityInformationRetriever>();
+            var universityInformationRetriever = serviceProvider.GetService<IUniversityInformationRetriever>();
+            var universities = universityInformationRetriever.GetUniversityInformationByCountry("France");
+            Console.WriteLine(universities.Result[0].UniversityName);
 
-             var universities = universityInformationRetriever.GetUniversityInformationByCountry("France");
 
-             Console.WriteLine(universities.Result[0].UniversityName);
 
         }
     }
