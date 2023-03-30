@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31911.196
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "University.Info.ConsoleApp", "src\University.Info.ConsoleApp\University.Info.ConsoleApp.csproj", "{63DB003B-0B0F-44F2-AFB7-038A54DB7CF2}"
 EndProject
@@ -24,7 +24,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Diagrams", "Diagrams", "{25
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{614F4C14-8370-49C3-8711-B4829C00A235}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "University.Info.Application.Tests", "University.Info.Application.Tests\University.Info.Application.Tests.csproj", "{6BD38D3E-88E4-41B8-89C6-7F6BFD5CE1D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "University.Info.Application.Tests", "University.Info.Application.Tests\University.Info.Application.Tests.csproj", "{6BD38D3E-88E4-41B8-89C6-7F6BFD5CE1D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversityInfo.Tests", "UniversityInformationProvider.Tests\UniversityInfo.Tests.csproj", "{E896ECDC-F093-4612-A82E-A490149E8F28}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -60,6 +62,10 @@ Global
 		{6BD38D3E-88E4-41B8-89C6-7F6BFD5CE1D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BD38D3E-88E4-41B8-89C6-7F6BFD5CE1D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BD38D3E-88E4-41B8-89C6-7F6BFD5CE1D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E896ECDC-F093-4612-A82E-A490149E8F28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E896ECDC-F093-4612-A82E-A490149E8F28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E896ECDC-F093-4612-A82E-A490149E8F28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E896ECDC-F093-4612-A82E-A490149E8F28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,6 +77,7 @@ Global
 		{4E65DC33-C226-4BA5-A91E-50CF4C283F64} = {99CA1E27-7BBD-47E0-A408-214C03DDF27E}
 		{B1D3CD3B-3AFA-4132-A6D2-B452E511E46F} = {99CA1E27-7BBD-47E0-A408-214C03DDF27E}
 		{6BD38D3E-88E4-41B8-89C6-7F6BFD5CE1D1} = {614F4C14-8370-49C3-8711-B4829C00A235}
+		{E896ECDC-F093-4612-A82E-A490149E8F28} = {614F4C14-8370-49C3-8711-B4829C00A235}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CBA5F954-8DB6-49DC-8A77-A72DACFE35F9}

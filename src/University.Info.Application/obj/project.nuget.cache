@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "bjwhA+rq7qs3MVkS7Vg8WxjDb1+VvjuVv1dphLKzYbNgjUZGchkDnNc+EJuZVBLeSs2HP6G6k7vusv+Psk+6yA==",
+  "dgSpecHash": "Ek3alIHfOs5JExS0E+lm3yk5BT3AUE5aEQDDSGX68OoMhordYGct8M62Ue03aGFeTcwm3isk9Sj6waY1BVzp1w==",
   "success": true,
-  "projectFilePath": "C:\\Source\\-UniversityApp\\src\\University.Info.Application\\University.Info.Application.csproj",
+  "projectFilePath": "C:\\Users\\luo_k\\workbench\\projects\\-UniversityApp\\src\\University.Info.Application\\University.Info.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\fernandok\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+    "C:\\Users\\luo_k\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
   ],
   "logs": []
 }
