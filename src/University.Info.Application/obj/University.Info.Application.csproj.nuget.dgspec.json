@@ -1,45 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Source\\-UniversityApp\\src\\University.Info.Application\\University.Info.Application.csproj": {}
+    "C:\\Users\\luo_k\\workbench\\projects\\-UniversityApp\\src\\University.Info.Application\\University.Info.Application.csproj": {}
   },
   "projects": {
-    "C:\\Source\\-UniversityApp\\src\\University.Info.Application\\University.Info.Application.csproj": {
+    "C:\\Users\\luo_k\\workbench\\projects\\-UniversityApp\\src\\University.Info.Application\\University.Info.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Source\\-UniversityApp\\src\\University.Info.Application\\University.Info.Application.csproj",
+        "projectUniqueName": "C:\\Users\\luo_k\\workbench\\projects\\-UniversityApp\\src\\University.Info.Application\\University.Info.Application.csproj",
         "projectName": "University.Info.Application",
-        "projectPath": "C:\\Source\\-UniversityApp\\src\\University.Info.Application\\University.Info.Application.csproj",
-        "packagesPath": "C:\\Users\\fernandok\\.nuget\\packages\\",
-        "outputPath": "C:\\Source\\-UniversityApp\\src\\University.Info.Application\\obj\\",
+        "projectPath": "C:\\Users\\luo_k\\workbench\\projects\\-UniversityApp\\src\\University.Info.Application\\University.Info.Application.csproj",
+        "packagesPath": "C:\\Users\\luo_k\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luo_k\\workbench\\projects\\-UniversityApp\\src\\University.Info.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\fernandok\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\luo_k\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://nuget.ao.com/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Source\\-UniversityApp\\src\\University.Info.Domain\\University.Info.Domain.csproj": {
-                "projectPath": "C:\\Source\\-UniversityApp\\src\\University.Info.Domain\\University.Info.Domain.csproj"
+              "C:\\Users\\luo_k\\workbench\\projects\\-UniversityApp\\src\\University.Info.Domain\\University.Info.Domain.csproj": {
+                "projectPath": "C:\\Users\\luo_k\\workbench\\projects\\-UniversityApp\\src\\University.Info.Domain\\University.Info.Domain.csproj"
               },
-              "C:\\Source\\-UniversityApp\\src\\University.Info.Interfaces\\University.Info.Interfaces.csproj": {
-                "projectPath": "C:\\Source\\-UniversityApp\\src\\University.Info.Interfaces\\University.Info.Interfaces.csproj"
+              "C:\\Users\\luo_k\\workbench\\projects\\-UniversityApp\\src\\University.Info.Interfaces\\University.Info.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\luo_k\\workbench\\projects\\-UniversityApp\\src\\University.Info.Interfaces\\University.Info.Interfaces.csproj"
               }
             }
           }
@@ -59,7 +52,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -68,35 +62,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Source\\-UniversityApp\\src\\University.Info.Domain\\University.Info.Domain.csproj": {
+    "C:\\Users\\luo_k\\workbench\\projects\\-UniversityApp\\src\\University.Info.Domain\\University.Info.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Source\\-UniversityApp\\src\\University.Info.Domain\\University.Info.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\luo_k\\workbench\\projects\\-UniversityApp\\src\\University.Info.Domain\\University.Info.Domain.csproj",
         "projectName": "University.Info.Domain",
-        "projectPath": "C:\\Source\\-UniversityApp\\src\\University.Info.Domain\\University.Info.Domain.csproj",
-        "packagesPath": "C:\\Users\\fernandok\\.nuget\\packages\\",
-        "outputPath": "C:\\Source\\-UniversityApp\\src\\University.Info.Domain\\obj\\",
+        "projectPath": "C:\\Users\\luo_k\\workbench\\projects\\-UniversityApp\\src\\University.Info.Domain\\University.Info.Domain.csproj",
+        "packagesPath": "C:\\Users\\luo_k\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luo_k\\workbench\\projects\\-UniversityApp\\src\\University.Info.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\fernandok\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\luo_k\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://nuget.ao.com/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -126,7 +113,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -135,43 +123,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Source\\-UniversityApp\\src\\University.Info.Interfaces\\University.Info.Interfaces.csproj": {
+    "C:\\Users\\luo_k\\workbench\\projects\\-UniversityApp\\src\\University.Info.Interfaces\\University.Info.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Source\\-UniversityApp\\src\\University.Info.Interfaces\\University.Info.Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\luo_k\\workbench\\projects\\-UniversityApp\\src\\University.Info.Interfaces\\University.Info.Interfaces.csproj",
         "projectName": "University.Info.Interfaces",
-        "projectPath": "C:\\Source\\-UniversityApp\\src\\University.Info.Interfaces\\University.Info.Interfaces.csproj",
-        "packagesPath": "C:\\Users\\fernandok\\.nuget\\packages\\",
-        "outputPath": "C:\\Source\\-UniversityApp\\src\\University.Info.Interfaces\\obj\\",
+        "projectPath": "C:\\Users\\luo_k\\workbench\\projects\\-UniversityApp\\src\\University.Info.Interfaces\\University.Info.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\luo_k\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luo_k\\workbench\\projects\\-UniversityApp\\src\\University.Info.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\fernandok\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\luo_k\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://nuget.ao.com/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Source\\-UniversityApp\\src\\University.Info.Domain\\University.Info.Domain.csproj": {
-                "projectPath": "C:\\Source\\-UniversityApp\\src\\University.Info.Domain\\University.Info.Domain.csproj"
+              "C:\\Users\\luo_k\\workbench\\projects\\-UniversityApp\\src\\University.Info.Domain\\University.Info.Domain.csproj": {
+                "projectPath": "C:\\Users\\luo_k\\workbench\\projects\\-UniversityApp\\src\\University.Info.Domain\\University.Info.Domain.csproj"
               }
             }
           }
@@ -191,7 +172,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -200,7 +182,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
